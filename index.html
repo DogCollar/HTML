@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dog Collar is a Community Organized Token Experience Exclusively Launched on ShibaSwap">
+    <meta name="author" content="Dog Collar">
+    <meta name="keywords" content="Dog Collar Token, ERC20, Ethereum, Shiba Inu, ShibaSwap" />
+    <meta name="robots" content="index,follow">
+
+    <!--Twitter & OpenGraph-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@DogCollarToken" />
+    <meta name="twitter:creator" content="@DogCollarToken" />
+    <meta property="og:url" content="https://collartoken.com" />
+    <meta property="og:title" content="Dog Collar Token" />
+    <meta property="og:description"
+        content="Dog Collar is a COmmunity Organized Token Experience Exclusively Launched on ShibaSwap" />
+
+    <!--Links-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <title>Dog Collar Token</title>
+</head>
+
+<body>
+    <main class="relative">
+        <nav
+            class="absolute flex inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent text-primary-content">
+            <!--Logo Area-->
+            <div class="flex-none">
+                <div class="mx-auto inline-flex space-x-2">
+                    <div class="flex items-center">
+                        <span><img src="dcLogo.png" class="w-auto h-24 lg:w-36 px-4 lg:h-auto"></span>
+                        <span class="font-black text-4xl lg:text-6xl" style="color: hsl(0, 98%, 42%, 1);">Dog</span>
+                        <span class="font-medium text-4xl lg:text-6xl"
+                            style="color: hsl(39, 99%, 50%, 1);">Collar</span>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="font-light" style="color: hsl(39, 99%, 50%, 1);">Token</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-grow"></div>
+            <!--Burger Button-->
+            <div class="flex-none items-center">
+                <div x-data="{ open: false }" class="relative inline-block">
+                    <button @click="open = true" type="button"
+                        class="inline-flex p-4 rounded-md text-gray-100 transition duration-150 ease-in-out">
+                        <svg class="h-8 w-8 lg:h-12 lg:w-12" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                    <!--Dropdown Menu-->
+                    <div x-show="open"
+                        class="absolute block grid gap-6 rounded-sm mt-2 bg-gray-100 shadow px-4 py-6 right-3">
+                        <a href="#" target="_blank noreferrer" @click.away="open = false"
+                            class="inline-flex ml-1 font-xl items-center font-bold text-gray-800 transition duration-150 ease-in-out"
+                            role="menuitem"><i class="fab fa-discord fa-xl pr-2"></i>
+                            <p class="">Discord</p>
+                        </a>
+                        <a href="https://twitter.com/DogCollarToken" target="_blank noreferrer"
+                            @click.away="open = false"
+                            class="inline-flex ml-1 font-xl items-center font-bold text-gray-800 transition duration-150 ease-in-out"
+                            role="menuitem"><i class="fab fa-twitter fa-xl pr-2"></i>
+                            <p class="">Twitter</p>
+                        </a>
+                        <a href="https://dex.guru/token/0x9783b81438c24848f85848f8df31845097341771-eth"
+                            target="_blank noreferrer" @click.away="open = false"
+                            class="inline-flex ml-1 font-xl items-center font-bold text-gray-800 transition duration-150 ease-in-out"
+                            role="menuitem"><i class="fas fa-chart-line fa-xl pr-2"></i>
+                            <p class="">Dex Guru</p>
+                        </a>
+                        <a href="https://etherscan.io/token/0x9783b81438c24848f85848f8df31845097341771"
+                            target="_blank noreferrer" @click.away="open = false"
+                            class="inline-flex ml-1 font-xl items-center font-bold text-gray-800 transition duration-150 ease-in-out"
+                            role="menuitem"><i class="fas fa-globe fa-xl pr-2"></i>
+                            <p class="">Etherscan</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="hero" class=" bg-gradient-to-t from-gray-700 to-gray-900 w-auto overflow-hidden">
+            <div>
+                <!--Background-->
+                <div class="min-h-screen bg-gradient-to-br from-primary to-secondary text-primary-content">
+                    <div class="inline-block w-full transform scale-125 opacity-5 -rotate-12 text-neutral">
+                        <svg width="100%" height="100%" viewBox="0 0 117 25" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                            <path
+                                d="M29.681,12.11c-0,-1.341 0.221,-2.527 0.663,-3.558c0.441,-1.031 1.075,-1.826 1.901,-2.386c0.827,-0.561 1.788,-0.841 2.884,-0.841c1.382,0 2.462,0.466 3.239,1.399l0.147,-1.153l3.755,-0l-0,12.773c-0,1.169 -0.272,2.186 -0.816,3.049c-0.544,0.863 -1.331,1.525 -2.362,1.987c-1.031,0.463 -2.225,0.694 -3.583,0.694c-0.973,-0 -1.916,-0.184 -2.828,-0.553c-0.912,-0.368 -1.609,-0.846 -2.092,-1.435l1.73,-2.43c0.769,0.908 1.783,1.362 3.043,1.362c1.832,0 2.748,-0.94 2.748,-2.822l0,-0.417c-0.793,0.875 -1.795,1.313 -3.006,1.313c-1.619,0 -2.928,-0.62 -3.926,-1.859c-0.998,-1.239 -1.497,-2.898 -1.497,-4.975l-0,-0.148Zm73.092,6.737c-0.147,-0.27 -0.278,-0.667 -0.393,-1.191c-0.76,0.957 -1.824,1.436 -3.19,1.436c-1.251,0 -2.315,-0.378 -3.19,-1.135c-0.875,-0.757 -1.313,-1.708 -1.313,-2.853c0,-1.439 0.532,-2.527 1.595,-3.264c1.064,-0.736 2.61,-1.104 4.638,-1.104l1.276,0l0,-0.703c0,-1.224 -0.527,-1.837 -1.583,-1.837c-0.981,0 -1.472,0.485 -1.472,1.455l-4.135,0c0,-1.282 0.546,-2.324 1.638,-3.125c1.092,-0.801 2.485,-1.201 4.178,-1.201c1.693,0 3.031,0.413 4.012,1.239c0.982,0.827 1.485,1.96 1.51,3.399l-0,5.877c0.016,1.219 0.204,2.152 0.564,2.798l-0,0.209l-4.135,-0Zm-87.239,-6.761c-0,-1.325 0.257,-2.505 0.773,-3.54c0.515,-1.035 1.255,-1.83 2.221,-2.386c0.965,-0.557 2.098,-0.835 3.398,-0.835c1.988,0 3.555,0.616 4.7,1.847c1.145,1.231 1.718,2.906 1.718,5.024l-0,0.148c-0,2.069 -0.575,3.711 -1.724,4.926c-1.15,1.215 -2.706,1.822 -4.669,1.822c-1.89,0 -3.407,-0.566 -4.552,-1.699c-1.145,-1.133 -1.763,-2.669 -1.853,-4.608l-0.012,-0.699Zm51.313,-0c-0,-1.325 0.257,-2.505 0.773,-3.54c0.515,-1.035 1.255,-1.83 2.22,-2.386c0.966,-0.557 2.099,-0.835 3.399,-0.835c1.988,0 3.554,0.616 4.7,1.847c1.145,1.231 1.717,2.906 1.717,5.024l0,0.148c0,2.069 -0.574,3.711 -1.723,4.926c-1.15,1.215 -2.706,1.822 -4.669,1.822c-1.89,0 -3.407,-0.566 -4.552,-1.699c-1.146,-1.133 -1.763,-2.669 -1.853,-4.608l-0.012,-0.699Zm-1.326,0.712c-0.057,1.243 -0.392,2.341 -1.006,3.294c-0.613,0.953 -1.474,1.691 -2.582,2.215c-1.109,0.523 -2.375,0.785 -3.798,0.785c-2.348,0 -4.196,-0.765 -5.546,-2.294c-1.35,-1.53 -2.025,-3.69 -2.025,-6.479l0,-0.883c0,-1.751 0.305,-3.283 0.915,-4.596c0.609,-1.312 1.486,-2.327 2.631,-3.042c1.146,-0.716 2.471,-1.074 3.976,-1.074c2.168,-0 3.91,0.57 5.227,1.712c1.317,1.141 2.065,2.713 2.245,4.717l-4.294,0c-0.033,-1.088 -0.307,-1.869 -0.822,-2.343c-0.516,-0.475 -1.301,-0.712 -2.356,-0.712c-1.072,0 -1.857,0.401 -2.356,1.203c-0.499,0.801 -0.761,2.081 -0.785,3.84l-0,1.264c-0,1.906 0.239,3.268 0.718,4.086c0.478,0.818 1.302,1.227 2.472,1.227c0.99,-0 1.746,-0.233 2.27,-0.7c0.523,-0.466 0.802,-1.206 0.834,-2.22l4.282,-0Zm-65.521,6.049l-0,-17.865l5.755,-0c1.578,-0 2.998,0.357 4.257,1.073c1.26,0.716 2.244,1.726 2.951,3.031c0.708,1.305 1.066,2.767 1.074,4.386l-0,0.822c-0,1.636 -0.346,3.103 -1.037,4.399c-0.691,1.297 -1.665,2.311 -2.92,3.043c-1.256,0.732 -2.657,1.102 -4.203,1.111l-5.877,-0Zm92.748,-0l-4.147,-0l0,-18.847l4.147,0l0,18.847Zm-6.908,-0l-4.147,-0l0,-18.847l4.147,0l0,18.847Zm30.823,-9.534l-1.362,-0.098c-1.301,-0 -2.135,0.409 -2.503,1.227l-0,8.405l-4.135,-0l-0,-13.276l3.877,-0l0.135,1.705c0.695,-1.301 1.664,-1.951 2.908,-1.951c0.442,0 0.826,0.049 1.153,0.147l-0.073,3.841Zm-16.479,6.834c0.515,0 0.943,-0.11 1.282,-0.331c0.34,-0.221 0.583,-0.47 0.73,-0.749l0,-2.122l-1.202,-0c-1.44,-0 -2.16,0.646 -2.16,1.938c0,0.377 0.127,0.681 0.381,0.915c0.253,0.233 0.576,0.349 0.969,0.349Zm-80.515,-3.803c-0,1.227 0.192,2.126 0.576,2.699c0.385,0.573 0.953,0.859 1.706,0.859c1.472,-0 2.225,-1.133 2.258,-3.399l-0,-0.417c-0,-2.38 -0.761,-3.571 -2.283,-3.571c-1.382,0 -2.13,1.027 -2.245,3.08l-0.012,0.749Zm51.313,-0c-0,1.227 0.192,2.126 0.576,2.699c0.385,0.573 0.953,0.859 1.706,0.859c1.472,-0 2.225,-1.133 2.257,-3.399l0,-0.417c0,-2.38 -0.76,-3.571 -2.282,-3.571c-1.382,0 -2.131,1.027 -2.245,3.08l-0.012,0.749Zm-37.154,0.024c0,1.088 0.205,1.949 0.614,2.583c0.409,0.634 0.981,0.951 1.718,0.951c0.891,-0 1.541,-0.299 1.95,-0.896l0,-5.583c-0.4,-0.605 -1.043,-0.908 -1.926,-0.908c-0.736,0 -1.313,0.33 -1.73,0.988c-0.417,0.659 -0.626,1.614 -0.626,2.865Zm-29.521,-8.061l-0,11.227l1.497,-0c1.235,-0 2.184,-0.44 2.846,-1.319c0.663,-0.88 0.994,-2.186 0.994,-3.921l0,-0.773c0,-1.725 -0.331,-3.026 -0.994,-3.901c-0.662,-0.876 -1.628,-1.313 -2.895,-1.313l-1.448,-0Z"
+                                style="fill-rule:nonzero;" />
+                        </svg>
+                    </div>
+                    <!--Hero Content-->
+                    <div class="text-gray-100 mt-10 md:-mt-36 lg:-mt-48 xl:-mt-64 align-center z-0">
+                        <!--Headline-->
+                        <h1 class="py-4 mb-2 font-extrabold text-center py-10 lg:py-0">
+                            <div class="mb-2 lg:mb-12 text-7xl lg:text-9xl">
+                                Dog Collar
+                            </div>
+                            <div class="text-4xl lg:text-5xl mb-4 lg:mb-8">
+                                The Prince of Shiba
+                            </div>
+                        </h1>
+                        <!--Flex column-->
+                        <div
+                            class="flex flex-col items-center justify-center w-full space-y-10 lg:space-x-4 lg:space-y-0 lg:flex-row">
+
+                            <div
+                                class="flex-1 w-full text-center h-16 max-w-sm bg-transparent border-2 text-primary-content border-opacity-40 border-primary-content rounded-md">
+                                <span>Contract Address</span>
+                                <div class="px-2">0x9783b81438c24848f85848f8df31845097341771</div>
+                            </div>
+                            <div class="max-w-sm my-2 text-left text-xl">
+                                <div>
+                                    <i class="fas fa-dog p-2"></i>
+                                    ERC20 - Ethereum Network Only!
+                                </div>
+                                <div> <i class="fas fa-dog p-2"></i>
+                                    Community Organized Token
+                                </div>
+                                <div> <i class="fas fa-dog p-2"></i>
+                                    Utility [Soon]
+                                </div>
+                            </div>
+                        </div>
+                        <!--Where to Buy-->
+                        <div
+                            class="flex flex-col items-center justify-center w-full space-y-10 lg:space-x-4 lg:space-y-0 lg:flex-row">
+                            <div class="my-2 text-center text-lg">
+                                <div class="max-w-md text-3xl lg:text-5xl mb-4 lg:mb-8 font-medium">
+                                    Buy Exclusively on ShibaSwap!
+                                </div>
+                            </div>
+                            <div>
+                                <a href="https://shibaswap.com/#/swap?outputCurrency=0x9783b81438c24848f85848f8df31845097341771"
+                                    target="_blank noreferrer"><button type="button"
+                                        class="inline-flex items-center px-8 py-3 border border-transparent text-xl font-semibold rounded-md shadow-sm text-white bg-red-700 hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
+                                        Buy Collar!
+                                    </button></a>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+    </main>
+    <!--Footer-->
+    <footer class="bg-gray-900 bottom-0 w-screen">
+        <div class="py-4 flex justify-center">
+            <div class="inline-flex">
+                <div class="px-2">
+                    <a href="https://discord.gg/RdTwzdEtMk" target="_blank noreferrer"
+                        class="text-gray-100 hover:text-gray-400 items-center"><i class="fab fa-discord fa-2x"></i>
+                        <span class="sr-only">Discord</span>
+                    </a>
+                </div>
+                <div class="px-2">
+                    <a href="https://twitter.com/DogCollarToken" target="_blank noreferrer"
+                        class="text-gray-100 hover:text-gray-400 items-center"><i class="fab fa-twitter fa-2x"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
